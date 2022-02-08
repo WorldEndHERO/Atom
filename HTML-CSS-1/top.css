@@ -1,0 +1,154 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+  width: 800px;
+  height: 60px;
+  background: rgb(0, 0, 0);
+  border-bottom: 5px double red;
+}
+
+.header-icon img{
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.header-title{
+  font-family: 'Anton', sans-serif;
+  color: red;
+  font-size: 30px;
+  float: left;
+  padding: 15px;
+}
+
+.header-title a{
+    color: red;
+  text-decoration: none;
+}
+
+.header-list{
+  float: left;
+  color: white;
+  padding-top: 10px;
+}
+
+.header-list li{
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 2px solid red;
+}
+
+.main{
+  width: 800px;
+  height: 675px;
+  color: white;
+  background: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.catchcopy{
+  margin-bottom: 2px;
+  border-bottom: 10px double red;
+}
+
+.catchcopy h1{
+  font-size: 60px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.catchcopy h2{
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.catchcopy span{
+  color: red;
+  margin-bottom: 0px;
+}
+
+.contents-select{
+  margin-bottom: 0px;
+  background: BLACK;
+  border: 10px solid black;
+  border-top: 10px double red;
+  border-bottom: 10px double red;
+}
+
+.contents-select h1{
+  padding: 0px 350px;
+}
+
+.contents-select span{
+  color: red;
+}
+
+.contents-container ul{
+  margin: 0;
+  padding: 0;
+}
+
+.contents-container li{
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+  float: left;
+}
+
+.container1{
+  background: url('見出しを追加.png');
+}
+
+.container2{
+  background: url('後悔はないか.png');
+}
+
+.container3{
+  background: url('選択の時.png');
+}
+
+.container4{
+  background: url('忘れぬことだ.png');
+}
+
+
+.footer{
+  width: 800px;
+  height: 100px;
+  background: gray;
+}
+
+.footer-title{
+  float: left;
+}
+
+.footer h1{
+  margin: 0;
+  padding-top: 30px;
+}
+
+.footer span{
+  text-decoration: line-through;
+  color: red;
+}
+
+.footer ul{
+  margin: 0;
+  float: right;
+}
+
+.footer li{
+  padding: 9px;
+}
